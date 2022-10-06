@@ -1,9 +1,7 @@
 def isSolvable(words, result):
     mp = [-1]*(26)
     used = [0]*(10)
-
     Hash = [0]*(26)
-
     CharAtfront = [0]*(26)
     uniq = ""
 
